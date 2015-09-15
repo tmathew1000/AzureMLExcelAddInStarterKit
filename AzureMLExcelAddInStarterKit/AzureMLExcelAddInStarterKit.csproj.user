@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SharePointSiteUrl>http://thomasmathew.sharepoint.com/</SharePointSiteUrl>
+    <GeneratedFeatureId>ab82a82a-c07a-4757-bdd2-367663da7249</GeneratedFeatureId>
+    <GeneratedPackageId>21ab9d08-44f7-4c9b-ad5e-557a39c73b05</GeneratedPackageId>
+    <GeneratedModuleId>{445be1fc-8219-48ee-9123-7a3b143bf0e7}</GeneratedModuleId>
+    <GeneratedListId>{5c65a3c2-a6ee-4318-a098-11f8fbb6ebff}</GeneratedListId>
+    <GeneratedProductId>{40ad4efe-8b2d-4dd7-b709-467d37e90280}</GeneratedProductId>
+    <GeneratedAppVersion>1.0.0.0</GeneratedAppVersion>
+    <GeneratedClientSecret>AdG7k2rXxZBQhVWwZYeVqeOiTXP3OYMRRxM3xRq1ZsY=</GeneratedClientSecret>
+  </PropertyGroup>
+</Project>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
      Name="AzureMLExcelAddInStarterKit"
-     ProductID="{cf23a64e-77a9-40ef-a8d0-3107c82d8a39}"
+     ProductID="{6d36d23f-da3a-4d46-ab54-10a29ac79dfc}"
      Version="1.0.0.0"
      SharePointMinVersion="15.0.0.0"
 >

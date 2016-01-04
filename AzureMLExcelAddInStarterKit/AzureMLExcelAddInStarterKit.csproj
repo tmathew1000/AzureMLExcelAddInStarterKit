@@ -49,6 +49,7 @@
     <Content Include="AzureMLExcelAddInStarterKitManifest\AzureMLExcelAddInStarterKit.xml">
       <OpcRelationship>manifest-oemanifest</OpcRelationship>
     </Content>
+    <None Include="Sample Azure ML.xlsx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AzureMLExcelAddInStarterKitWeb\AzureMLExcelAddInStarterKitWeb.csproj">

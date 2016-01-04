@@ -1,2 +1,463 @@
 ﻿/* Page-specific styling */
 
+/* Page-specific styling */
+
+#details {
+    margin-left: 15px;
+}
+
+    #details th {
+        text-align: left;
+        padding-right: 10px;
+    }
+
+    #title {
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+    color:#4D148C;
+}
+#from {
+    cursor: pointer;
+    color: #336699;
+}
+
+    #from:focus, #from:hover, #from:active {
+        color: #4ea2df;
+    }
+
+
+/**/
+.alert-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alert {
+    position: relative;
+    z-index: 999999;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 35px 8px 14px;
+    margin-bottom: 5px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    background-color: #fcf8e3;
+    border: 1px solid #fbeed5;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.buzyIndicator {
+    pointer-events: none;
+    background-image: url("/images/MLProgressIcon_blue.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.panel-header {
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    color: #444444
+}
+
+.cover {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    z-index:2;
+    opacity:0.8;
+}
+
+.tabHeader {
+    background-color: #28A8E0;
+    color: white;
+    font-size: 15px;
+    padding: 4px;
+    font-family: 'Segoe UI Light';
+    height: 29px;
+}
+
+.textOverflowEllipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-wrap: none;
+    text-overflow: ellipsis;
+}
+
+.predictionHeader {
+    color: #444444;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+}
+
+.prediction-list {
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+}
+
+.prediction-list-element {
+    color: #444444;
+}
+
+.prediction-list-element-type {
+    color: #999999;
+}
+
+.predictionTree {
+    clear:both;
+    margin: 0;
+    margin-left:10px;
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.predictionTreeInner {
+    margin-left: 20px;
+    padding: 0;
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+
+.predictionTreeInner ul {
+    margin-left: 20px; 
+    padding: 0;
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+
+.predictionTreeInner > li {
+    margin-top: 10px;
+}
+
+.icon {
+    height: 12px;
+    width: 12px;
+    vertical-align:middle;
+    background-repeat:no-repeat;
+    display: inline-block;
+}
+
+.list-caret-down {
+    background-image: url("/Images/schemacaret_down.svg");
+}
+
+.list-caret-right {
+    background-image: url("/Images/schemacaret_right.svg");
+}
+
+.list-caret-down-light {
+    background-image: url("/Images/light_schemacaret_down.svg");
+}
+
+.list-caret-right-light {
+    background-image: url("/Images/light_schemacaret_right.svg");
+}
+
+.splitButton-Icon.icon {
+    background-image: url("/Images/splitbutton.svg");
+    height: 24px;
+    width: 24px;
+    background-size: 10px;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.web-service-icon.icon {
+    background-image: url("/Images/webservice.svg");
+    height: 15px;
+    width: 15px;
+}
+
+.web-service-add.icon {
+    background-image: url("/Images/addwebservice.svg");
+    height: 15px;
+    width: 15px;
+}
+
+.trashcan-icon.icon {
+    background-image: url("/Images/trashcan.svg");
+    height: 15px;
+    width: 15px;
+}
+
+.help-icon.icon {
+    background-image: url("/Images/help.svg");
+    height: 13px;
+    width: 13px;
+}
+
+.backarrow-icon.icon {
+    background-image: url("/Images/backarrow.svg");
+    height: 18px;
+    width: 18px;
+}
+
+.range-icon.icon {
+    background-image: url("/Images/rangeselector.png");
+    background-repeat:no-repeat;
+    background-size: contain;
+    height: 24px;
+    width: 21px;
+}
+
+.clearContainer {
+    clear: both; 
+    margin: 0; 
+    padding: 0;
+}
+
+.webServiceName {
+    padding: 10px;
+}
+
+.webserviceListContainer {
+    margin-left:10px; 
+    width:90%; 
+    float: left; 
+    overflow: hidden;
+}
+
+.webserviceList {
+    font-size: 15px;
+    font-family: 'Segoe UI Light';
+    font-style: normal;
+}
+
+.webservice {
+    background-color: white;
+    color: #66A4DD;
+}
+
+.addWebservice {
+    background-color: white;
+    color: #444444;
+}
+
+.webserviceSelected {
+    background-color: lightgray;
+    color: #66A4DD;
+}
+
+.webservice:hover {
+    background-color: #CCEEFB;
+    color: #66A4DD;
+}
+
+.webserviceSelected:hover {
+    background-color: #CCEEFB;
+    color: #66A4DD;
+}
+
+.appButton {
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cancelButton {
+    color: #66A4DD;
+    padding-top: 12px;
+}
+
+.okButton {
+    background-color: #28a8e0;
+    border: none;
+    text-align: center;
+    text-anchor:middle;
+    color: #ffffff;
+    width: 51px;
+    height: 24px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.splitButtonContainer {
+    margin-left: 0;
+    width: 24px;
+    height: 24px;
+}
+
+.predictButton {
+    background-color: #28a8e0;
+    border: none;
+    text-align: center;
+    text-anchor:middle;
+    color: #ffffff;
+    height: 24px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.sampleDataButton {
+    background-color: #ffffff;
+    border: 1px solid;
+    text-align: center;
+    text-anchor:middle;
+    color: #28a8e0;
+    width: 118px;
+    height: 26px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.webservice-bold-message {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 12px;
+    color: #4d4d4d;
+}
+
+.input-xs {
+    height: 22px;
+    padding: 2px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+#main {
+    background-color: #ffffff;
+    height: 100%;
+    margin-bottom: 20px;
+} 
+
+.footer {
+    position: fixed;
+    float: right;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    z-index: -10;
+}
+
+.footer.relative {
+     position:relative;
+}
+
+.footer-element {
+    font-size: 10px;
+    font-family: 'Segoe UI';
+    font-style: normal;
+    color: #28a8e0;
+    margin-left: 6px;
+    margin-right: 6px
+}
+
+.divBar {
+    color:#d4d4d4
+}
+
+.clickList {
+    clear: both;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.prediction-checkbox {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.errorMessage {
+    color: crimson;
+}
+
+.progressUI {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    text-align: center;
+    left: 0;
+    width: 100%;
+    top: 65%;
+    text-align: center;
+    text-anchor: middle;
+    position: fixed;
+}
+
+.progressUIPrimaryText {
+    font-size: 18px;
+}
+
+.progressUISecondaryText {
+    font-size: 15px;
+}
+
+.progressUICancelButton {
+    z-index: 10;
+    pointer-events: all;
+}
+
+.overwriteWarningMessage {
+    background-color: #F5F5F5;
+    font-family: 'Segoe UI';
+    font-size: 12px;
+    text-align: left;
+    line-height: 14.4px;
+    color: #ff0000;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    width:auto;
+    margin-left: -30px;
+}
+
+.close-black.icon {
+    background-image: url("/Images/Close_black.png");
+    height: 5px;
+    width: 5px;
+    float: right;
+    padding-left: 15px;
+    padding-top: 15px;
+    background-size: 15px 15px;
+    position: relative;
+    top: -20px;
+}
+
+.main-pane-backgound {
+    background-image: url("/Images/mlbackground.png");
+    width: 231px;
+    height: 367px;
+    float: right;
+    vertical-align:middle;
+    background-repeat:no-repeat;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -10000
+}
+
+#autoUpdate {
+    float: right;
+    vertical-align: central;
+    padding-top: 13px;
+}

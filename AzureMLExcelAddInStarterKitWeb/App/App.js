@@ -1,5 +1,5 @@
 ﻿/* Common app functionality */
-
+var results = new Array();
 var app = (function () {
     "use strict";
 

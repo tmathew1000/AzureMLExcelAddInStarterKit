@@ -4,21 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <title></title>
-    <script src="../../Scripts/jquery-1.9.1.js" type="text/javascript"></script>
+    <!--<script src="../../Scripts/jquery-1.9.1.js" type="text/javascript"></script>-->
+
+    <script src="//ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.min.js"></script>
 
     <link href="../../Content/Office.css" rel="stylesheet" type="text/css" />
-    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js" type="text/javascript"></script>
+    <script src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js" type="text/javascript"></script>
 
     <!-- To enable offline debugging using a local reference to Office.js, use:                        -->
-    <!-- <script src="../../Scripts/Office/MicrosoftAjax.js" type="text/javascript"></script>  -->
-    <!-- <script src="../../Scripts/Office/1/office.js" type="text/javascript"></script>  -->
-
-    <script src="https://oep.azurewebsites.net/preview/4229.1002/office.runtime.js" type="text/javascript"></script>
-    <script src="https://oep.azurewebsites.net/preview/4229.1002/Excel.js" type="text/javascript"></script>
-
-    <link rel="stylesheet" href="https://agave.azurewebsites.net/Fabric/css/fabric.min.css">
-    <link rel="stylesheet" href="https://agave.azurewebsites.net/Fabric/css/fabric.components.min.css">
-
+    <!--<script src="../../Scripts/Office/MicrosoftAjax.js" type="text/javascript"></script>
+    <script src="../../Scripts/Office/1.1/office.js" type="text/javascript"></script>-->
 
     <link href="../App.css" rel="stylesheet" type="text/css" />
     <script src="../App.js" type="text/javascript"></script>
@@ -27,35 +22,43 @@
     <script src="Home.js" type="text/javascript"></script>
 </head>
 <body>
-    <div id="content-header">
+
+    <div id="content-main">
+        <div id="title">
+            <br />
+            <img src="../../Images/Close.png" alt="" /><strong>Azure Machne Learning Excel Add-In</strong>
+        </div>
+
+
         <div class="padding">
-            <h1>Starter Kit</h1>
+            <div id="test">
+
+
+            </div>
+            <table id="details">
+                <tr>
+                    <th>URL:</th>
+                    <td><input type="text" id="urltext" class="textbox" value="https://ussouthcentral.services.azureml.net/workspaces/f8e2d18f739148248b1c73fbfae07fe2/services/28070a209e724b0c9a1b634c32d287f4/execute?api-version=2.0&details=true"></td>
+                </tr>
+                <tr>
+                    <th>API Key:</th>
+                    <td>
+                        <input type="text" id="apikey" class="textbox" value="D1N/VNr+2BYidVeuH+2rSmFHCuid4QHw4MoLgrV7cxKAsG2spnOrjByRNGaE5oTIt4RohlSL5O/I26+UeKc1mw==">
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <td><br /></td>
+                </tr>
+            </table>
+
+            <button id="runAzureML" class="disable-while-sending">Run Prediction</button>
         </div>
     </div>
-    <div id="content-main">
-        <div class="padding">
-            <!--<p><strong>Add home screen content here.</strong></p>
-            <p>For example:</p>
-            <button id="get-data-from-selection">Get data from selection</button>-->
-
-            <!--<p style="margin-top: 50px;">
-                <a target="_blank" href="https://go.microsoft.com/fwlink/?LinkId=276812">Find more samples online...</a>
-            </p>-->
-            <p> Enter Azure ML URL:</p>
-            <p><input id="InputText" type="text" /></p>
-            <p> Enter Key</p>
-            <p><input id="OutPutText" type="text" /></p>
-
-            <p> Input</p>
-            <p> Select Data:</p>
-            <p><input id="InputText" type="text" /></p>
-            <p> Output</p>
-            <p><input id="OutPutText" type="text" /></p>
-            <button id="runPrediction" class="ms-Button ms-Button--compound">
-                <span class="ms-Button-label">Run Prediction</span>
-            
-            </button> <br /><br />
-</div>
+    <div class="footer">
+        <a class="footer-element" href="http://aka.ms/amlexcelhelp" target="_blank">Help</a>
+        <a class="footer-element" href="http://go.microsoft.com/fwlink/?LinkId=512132" target="_blank">Privacy Statement</a>
     </div>
 </body>
 </html>

@@ -10,3 +10,15 @@ C:\Zip\Hackathon\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Deb
 C:\Zip\Hackathon\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\vbc.exe
 C:\Zip\Hackathon\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\VBCSCompiler.exe
 C:\Zip\Hackathon\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\csc.exe
+C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\vbc.exe
+C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\VBCSCompiler.exe.config

@@ -22,3 +22,4 @@ C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarter
 C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\vbc.exe
 C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\VBCSCompiler.exe
 C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\obj\Debug\AzureMLExcelAddInStarterKit.csprojResolveAssemblyReference.cache

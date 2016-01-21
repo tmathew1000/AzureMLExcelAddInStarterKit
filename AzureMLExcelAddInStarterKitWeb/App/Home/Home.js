@@ -4,8 +4,9 @@
     "use strict";
 
     var range;
-    var targetaddr;
-
+    var targetaddr1;
+    var targetaddr2;
+    var numofadditionalcols = 0;
     // The Office initialize function must be run each time a new page is loaded
     Office.initialize = function (reason) {
         $(document).ready(function () {
@@ -25,15 +26,13 @@
     }
 
     function RetrieveDataInRange() {
+        numofadditionalcols = 0;
         Excel.run(function (ctx) {
             range = ctx.workbook.getSelectedRange().load("values");
-
 
             range.load('columnCount');
             range.load('rowCount');
             range.load('rowIndex');
-
-
 
             return ctx.sync().then(function () {
 
@@ -43,15 +42,20 @@
                     var cell = ctx.workbook.getSelectedRange().getOffsetRange(0, range.columnCount).getCell(0, 0);
                     cell.load('address');
 
+                    var rangeshiftby1 = ctx.workbook.getSelectedRange().getOffsetRange(0, 1).getLastCell();
+                    rangeshiftby1.load('address');
+
                     var rangeshiftby2 = ctx.workbook.getSelectedRange().getOffsetRange(0, 2).getLastCell();
                     rangeshiftby2.load('address');
 
                     return ctx.sync().then(function () {
                         //var startaddr = resultRange.address;
                         var startaddr = cell.address.substring(cell.address.indexOf("!") + 1, cell.address.length);
-                        var endaddr = rangeshiftby2.address.substring(rangeshiftby2.address.indexOf("!") + 1, rangeshiftby2.address.length);
+                        var endaddr1 = rangeshiftby1.address.substring(rangeshiftby1.address.indexOf("!") + 1, rangeshiftby1.address.length);
+                        var endaddr2 = rangeshiftby2.address.substring(rangeshiftby2.address.indexOf("!") + 1, rangeshiftby2.address.length);
 
-                        targetaddr = startaddr + ":" + endaddr;
+                        targetaddr1 = startaddr + ":" + endaddr1;
+                        targetaddr2 = startaddr + ":" + endaddr2;
 
                         var test = range.columnCount;
                         var colLength = range.columnCount;
@@ -62,10 +66,10 @@
                             var rowvalue = [];
                             for (var j = 0; j < range.values[i].length; j++) {
                                 if (i == 0) {
-                                    columnnames.push(range.values[i][j]);
+                                    columnnames.push(String(range.values[i][j]));
                                 }
                                 else {
-                                    rowvalue[j] = range.values[i][j];
+                                    rowvalue[j] = String(range.values[i][j]);
                                 }
                             }
                             if (i > 0) rowvalues.push(rowvalue);
@@ -126,15 +130,24 @@
         if (jsonobj.Results) {
             results = new Array();
             var col = new Array();
-            for (var j = jsonobj.Results.output1.value.ColumnNames.length - 2; j < jsonobj.Results.output1.value.ColumnNames.length; j++) {
-                col.push(jsonobj.Results.output1.value.ColumnNames[j]);
+            //Check to see if we are getting Score Lables and Score Probablities- Sometimes only Score Labels are returned.
+            for (var j = 0; j < jsonobj.Results.output1.value.ColumnNames.length; j++) {
+                if ((jsonobj.Results.output1.value.ColumnNames[j] == "Scored Labels") || (jsonobj.Results.output1.value.ColumnNames[j] == "Scored Probabilities"))
+                {
+                    col.push(jsonobj.Results.output1.value.ColumnNames[j]);
+                    numofadditionalcols++;
+                }
             }
+
+            //for (var j = jsonobj.Results.output1.value.ColumnNames.length - 1; j < jsonobj.Results.output1.value.ColumnNames.length; j++) {
+            //    col.push(jsonobj.Results.output1.value.ColumnNames[j]);
+            //}
             //results.push(jsonobj.Results.output1.value.ColumnNames);
             results.push(col);
 
             for (var i = 0; i < jsonobj.Results.output1.value.Values.length; i++) {
                 var row = new Array();
-                for (var k = jsonobj.Results.output1.value.Values[0].length - 2; k < jsonobj.Results.output1.value.Values[0].length; k++) {
+                for (var k = jsonobj.Results.output1.value.Values[0].length - numofadditionalcols; k < jsonobj.Results.output1.value.Values[0].length; k++) {
                     row.push(jsonobj.Results.output1.value.Values[i][k]);
                 }
                 results.push(row);
@@ -178,7 +191,9 @@
 
 
                 //WORKING
-                var range = sheet.getRange(targetaddr);
+                var range;
+                if (numofadditionalcols == 1) range = sheet.getRange(targetaddr1);
+                else range = sheet.getRange(targetaddr2);
                 range.values = results;
 
                 //sheet.getRange("A11:O11").format.font.bold = true;
@@ -190,8 +205,8 @@
                 var chart = sheet.charts.add("ColumnClustered", range, "auto");
 
                 //Queue commands to set the properties and format the chart
-                chart.setPosition("R16", "AI51");
-                chart.title.text = "Scored Probabilities";
+                chart.setPosition("R16", "AI36");
+                chart.title.text = "Predicted Risk Score";
                 chart.legend.position = "right"
                 chart.legend.format.fill.setSolidColor("white");
                 chart.dataLabels.format.font.size = 15;

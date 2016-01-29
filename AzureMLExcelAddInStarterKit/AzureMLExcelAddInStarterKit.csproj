@@ -49,6 +49,7 @@
     <Content Include="AzureMLExcelAddInStarterKitManifest\AzureMLExcelAddInStarterKit.xml">
       <OpcRelationship>manifest-oemanifest</OpcRelationship>
     </Content>
+    <None Include="AzureMLExcelAddInStarterKitManifest\Test Sample Azure ML AddIn PONV.xlsx" />
     <None Include="Sample Azure ML.xlsx" />
   </ItemGroup>
   <ItemGroup>

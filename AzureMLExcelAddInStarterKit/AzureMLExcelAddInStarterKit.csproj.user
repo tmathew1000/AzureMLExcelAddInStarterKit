@@ -9,6 +9,6 @@
     <GeneratedProductId>{40ad4efe-8b2d-4dd7-b709-467d37e90280}</GeneratedProductId>
     <GeneratedAppVersion>1.0.0.0</GeneratedAppVersion>
     <GeneratedClientSecret>AdG7k2rXxZBQhVWwZYeVqeOiTXP3OYMRRxM3xRq1ZsY=</GeneratedClientSecret>
-    <OfficeAppStartDocument>Sample Azure ML.xlsx</OfficeAppStartDocument>
+    <OfficeAppStartDocument>AzureMLExcelAddInStarterKitManifest\Test Sample Azure ML AddIn PONV.xlsx</OfficeAppStartDocument>
   </PropertyGroup>
 </Project>

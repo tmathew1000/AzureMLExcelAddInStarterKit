@@ -6,7 +6,7 @@ Azure ML Excel Add-in Starter Kit
 **Summary**
 ----------
 
-Azure ML Excel Add-in Starter Kit demonstrates how you can quickly build an Excel Add-in that integrates with your backend Azure ML based web services  to perform predictive analysis for your Excel data.
+Azure ML Excel Add-in Starter Kit demonstrates how you can quickly build an Excel Add-in that integrates with your published backend Azure ML based web service to perform predictive analysis of your Excel data.
 
 
 **Applies To**
@@ -27,4 +27,4 @@ When the solution is run, a sample Excel Workbook that contains sample income da
  4. Click the "Predict" button
 
 ---- 
-The Add-in will upload/post the selected data to your Azure ML Web service entered in the URL The Add-in will update the spreadsheet with the Scored Label and the associated Scored Probability results. Excel chart is also updated to reflect the latest Predicted Score along with the Probability risk.
+The Add-in will upload/post the selected data to your Azure ML Web service entered in the URL The Add-in will update the spreadsheet with the Scored Label and the associated Scored Probability results returned from Azure ML Web service. Excel chart is also refreshed to reflect the latest Predicted Score along with the Probability risk.

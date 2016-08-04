@@ -23,3 +23,15 @@ C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarter
 C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\VBCSCompiler.exe
 C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\VBCSCompiler.exe.config
 C:\Users\thomm\Source\Repos\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\obj\Debug\AzureMLExcelAddInStarterKit.csprojResolveAssemblyReference.cache
+C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\csc.exe
+C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\vbc.exe
+C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\roslyn\VBCSCompiler.exe.config

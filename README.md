@@ -17,7 +17,7 @@ Azure ML Excel Add-in Starter Kit demonstrates how you can quickly build an Exce
 **Try it Out**
 ----------
 
-Azure ML Excel Add-in Starter Kit solution has 2 projects. The first project is an Add-in project that contains the Add-in Manifest XML file. The second project is a pure HTML/JS/CSS web project.
+Azure ML Excel Add-in Starter Kit Visual Studio solution has 2 projects. The first project is an Add-in project that contains the Add-in Manifest XML file. The second project is a pure HTML/JS/CSS web project.
 
 When the solution is run, a sample Excel Workbook that contains sample income data is displayed along with the add-in. 
 

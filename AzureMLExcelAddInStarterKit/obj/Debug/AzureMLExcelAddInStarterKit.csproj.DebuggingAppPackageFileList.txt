@@ -1,2 +1,0 @@
-bin\Debug\OfficeAppManifests\AzureMLExcelAddInStarterKitManifest.xml
-C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKit\bin\Debug\AzureMLExcelAddInStarterKit.debugapp

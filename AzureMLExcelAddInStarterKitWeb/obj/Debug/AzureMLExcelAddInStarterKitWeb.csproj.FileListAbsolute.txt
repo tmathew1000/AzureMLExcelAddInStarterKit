@@ -72,6 +72,5 @@ C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStart
 C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKitWeb\bin\System.Net.Http.Formatting.xml
 C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKitWeb\bin\System.Web.Http.xml
 C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKitWeb\bin\System.Web.Http.WebHost.xml
-C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKitWeb\obj\Debug\AzureMLExcelAddInStarterKitWeb.csprojResolveAssemblyReference.cache
 C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKitWeb\obj\Debug\AzureMLExcelAddInStarterKitWeb.dll
 C:\Zip\AzureMLExcelStarterKit\AzureMLExcelAddInStarterKit\AzureMLExcelAddInStarterKitWeb\obj\Debug\AzureMLExcelAddInStarterKitWeb.pdb
